@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="icon" href="Google.png">    <!--LOGO ADD-->
+</head>
+<body>
+    <h3>Headings</h3>
+    <h1>H1 Heading</h1>             
+    <h2>H1 Heading</h2>
+    <h3>H1 Heading</h3>
+    <h4>H1 Heading</h4>
+    <h5>H1 Heading</h5>
+    <p><hr>Horizontal Line</p>
+    <p><br><br>2 Line Break up</p>      <!--This is comment-->
+    <p>Paragraph Text</p>
+    <br>
+    <h3>Links</h3>
+    <a href="https://www.google.com/" target="_blank" title="Goes to Google"> Link to click </a>    
+    <!--blank - opens in new tab & title - for more info-->
+
+    <br> <br>
+    <a href="mailto:">Email us</a>    <!--Maito - help to email-->
+
+
+    <br><br><br>
+    <h3>Image</h3>
+    <img src="Google.png" alt="google log" height="50">
+    <!--Alt - help if image not loaded-->
+
+    <br><br><br>
+    <h3>Audio</h3>
+    <audio controls src=""> </audio>
+
+    <br><br> <br>
+    <h3>Video</h3>
+    <video controls autoplay muted loop src=""></video>
+
+    <br> <br>
+    <h3>Text</h3>
+    <b>BOLD</b> <br>
+    <i>ITALIC</i> <br>
+    <u>UNDERLINE</u> <br>
+    <h2><span style="background-color: tomato;">SPAN</span></h2><!--inline container to group elements-->
+    <h2><div style="background-color: cyan;">DIV</div></h2>     <!--block container to group elements-->
+
+    <br>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ul>
+
+    <br>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+
+    <br>
+    <h3>Table</h3>
+    <table border="3">
+        <tr align="center">
+            <th>Sunday</th>
+            <th>Monday</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <br>
+    <h3>Button</h3>
+    <button onclick="dosomething()"  style="font-size: 15px; background-color: rgb(91, 218, 32);">Click Me</button>
+    <p id="greetings">Check me after click</p>
+    <script>
+        function dosomething(){
+            document.getElementById('greetings').innerHTML = 'GoodBye';        //check how after click text changes in id greetings
+        }
+    </script>
+
+</body>
+</html>
