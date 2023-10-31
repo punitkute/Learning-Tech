@@ -1,0 +1,8 @@
+TO CREATE NEW FOLDER JUST FOLLOW THE BELOW STEPS-
+
+Step 1: Click on Create new File
+Step 2: Enter the folder name that you want, then press /
+Step 3: Enter a sample file name. You must enter some text.
+Step 4: Click Commit new file to create the folder
+Step 5: Your folder is created!
+
